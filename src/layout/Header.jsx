@@ -3,11 +3,11 @@ function Header() {
     <nav>
       <div className="nav-wrapper #607d8b blue-grey">
         <a href="#" className="brand-logo ">
-          Logo
+          Movie Search
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="#">Sass</a>
+            <a href="#">See More</a>
           </li>
         </ul>
       </div>

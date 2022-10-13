@@ -7,7 +7,11 @@ function Movies(props) {
       {movies.length ? (
         movies.map((movie) => <Movie key={movie.imdbID} {...movie} />)
       ) : (
-        <h4>Nothing to show</h4>
+        <img
+          src="./21895128.jpg"
+          alt="Not Found"
+          style={{ 'max-width': '120%' }}
+        />
       )}
     </div>
   )
